@@ -14,3 +14,36 @@ DriveEase is an application designed to simplify file management on Google Drive
 ### Download File
 - Enables users to download a file from Google Drive to their local system.
 - Requires the user to provide the file ID from Google Drive and the local file path where the downloaded file will be saved.
+
+## Setup
+
+### Create and Activate a Virtual Environment
+
+1. **Create a virtual environment**:
+   ```bash
+   python -m venv env
+   ```
+
+2. **Activate the virtual environment**:
+   - On **Windows**:
+     ```bash
+     .\env\Scripts\activate
+     ```
+   - On **macOS/Linux**:
+     ```bash
+     source env/bin/activate
+     ```
+
+### Install Dependencies
+
+3. **Install required packages**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. **Run the application**:
+   ```bash
+   python driveease.py
+   ```
